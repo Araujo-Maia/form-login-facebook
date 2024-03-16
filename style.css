@@ -1,0 +1,99 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F0F2F5;
+    font-family: "Poppins", sans-serif;
+    
+}
+header{
+
+    background: transparent;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    height: 900px;
+    align-items: center;
+    padding: 100px;
+}
+div .cabecalho{
+    font-size: 80px;
+    color: #0866FF;
+}
+header .intro{
+    font-size: 30px;
+}
+.menu{
+
+    width: 480px;
+    height: 500px;
+    background: transparent;
+}
+.log{
+    width: 480px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.39);
+    display: inline-block;
+    text-align: center;
+    flex-wrap: wrap;
+
+}
+input{
+    width: 440px;
+    height: 50px;
+    border: 0.5px solid #0000002a;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 10px 0 10px;
+    text-align: start;
+    padding-left: 6px;
+}
+.btn-entrar{
+    width: 440px;
+    height: 50px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin: 10px 0 10px;
+    font-weight: bold;
+    background-color: #0866FF;
+    color: white;
+    border: none;
+
+}
+.senha{
+    font-size: 20px;
+    color: #0866FF;
+    border-radius: 5px;
+    margin: 10px 0 10px;
+    text-decoration: none;
+
+}
+hr{
+    margin: 22px;
+}
+.btn-conta{
+    width: 220px;
+    height: 50px;
+    border-radius: 5px;
+    margin: 10px 0 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #42B72A;
+    color: white;
+    border: none;
+}
+aside{
+    background: transparent;
+    margin: 10px;
+    font-size: 19px;
+    text-align: center;
+}
+aside a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
